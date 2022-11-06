@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Content/Pages/Application.js"></script>
+
+<h2>Index</h2>
+Name:
+<input type="text" id="txtName">
+<br>
+City:
+<select type="text" id="ddlCity">
+    <option>Nagpur</option>
+    <option>Amravati</option>
+    <option>Wardha</option>
+</select>
+<br>
+State:
+<select type="text" id="ddlState">
+    <option>Maharastra</option>
+    <option>UP</option>
+    <option>MP</option>
+</select>
+<br>
+Address:
+<input type="text" id="txtAddress">
+<br>
+Pincode:
+<input type="text" id="txtPincode">
+<br>
+MobileNo:
+<input type="text" id="txtMobileNo">
+<br>
+<input type="submit" id="Button1" value="Submit" onclick="saveApplication()"><br>
+
+<table id="tblapplication" border="1">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Address</th>
+            <th>Pincode</th>
+            <th>MobileNo</th>
+        </tr>
+    </thead>
+    </table>
