@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace MYTest.Controllers
 {
+    //Added comment for test
     public class HomeController : Controller
     {
         public ActionResult Index()
